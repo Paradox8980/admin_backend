@@ -33,7 +33,7 @@ app.use('/holiday-cron', require('./cron/holiday'));
 app.use('/timer-cron', require('./cron/timer'));
 
 //START SERVER
-app.listen(3000, ()=>{
-    console.log(`Server running on port 3000`);
-})
-// module.exports = app;
+//app.listen(3000, ()=>{
+//    console.log(`Server running on port 3000`);
+//})
+module.exports = app;
